@@ -1,0 +1,5 @@
+# Скрипты для Mac должны иметь переводы строк Unix, иначе bash падает на «\r»
+*.command text eol=lf
+*.sh text eol=lf
+# Файлы запуска Windows — с переводами строк Windows
+*.cmd text eol=crlf

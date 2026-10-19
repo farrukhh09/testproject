@@ -1,0 +1,23 @@
+# Секреты и доступ к аккаунтам
+.env
+checker/session/
+*.session
+*.session-journal
+
+# Служебные файлы проверщика (время проверок для лимита)
+checker/state/
+
+# Базы и выгрузки с настоящими клиентами
+*.db
+*.sqlite
+*.sqlite3
+exports/
+backups/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Окружение Python проекта
+.venv/

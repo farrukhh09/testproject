@@ -1,0 +1,4 @@
+telethon==1.45.0
+phonenumbers==9.0.41
+python-dotenv==1.2.4
+segno==1.6.6
